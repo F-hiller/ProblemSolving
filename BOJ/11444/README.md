@@ -24,6 +24,8 @@ n승은 2로 나눠가면서 계산 횟수를 줄일 수 있다.
 
 1 = 1으로 5번의 계산으로 17에 도달할 수 있다.
 
+$ \Alpha \rightarrow \Omega $
+
 $$ 
 \left( {Fn+2\atop Fn+1}\right) = \left( {1\atop 1} {1\atop 0} \right)\left( {Fn+1\atop Fn}\right)
 $$
