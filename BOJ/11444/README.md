@@ -24,13 +24,7 @@ n승은 2로 나눠가면서 계산 횟수를 줄일 수 있다.
 
 1 = 1으로 5번의 계산으로 17에 도달할 수 있다.
 
-$ \alpha $
-
-$$ 
-\left( {Fn+2\atop Fn+1}\right) = \left( {1\atop 1} {1\atop 0} \right)\left( {Fn+1\atop Fn}\right)
-$$
-
-$$\left( {Fn+1\atop Fn} {Fn\atop Fn-1} \right) = \left( {1\atop 1} {1\atop 0} \right)^n$$
+![1](https://user-images.githubusercontent.com/76993751/136931589-be5dd864-0302-4461-90a5-e8e80d8d723d.PNG)
 
 ```cpp
 int t, n, m, input1, input2;
