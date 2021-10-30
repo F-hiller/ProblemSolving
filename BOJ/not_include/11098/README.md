@@ -1,4 +1,5 @@
-int main() {
+[boj - 11098](https://www.acmicpc.net/problem/11098)
+```int main() {
 	//init
 	FastIO;
 	int i, j, k;
@@ -21,3 +22,4 @@ int main() {
 	}
 	return 0;
 }
+```
