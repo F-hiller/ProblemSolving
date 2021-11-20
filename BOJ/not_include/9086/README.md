@@ -1,4 +1,4 @@
-[https://www.acmicpc.net/problem/9086](https://www.acmicpc.net/problem/9086)
+[9086번: 문자열](https://www.acmicpc.net/problem/9086)
 
 ```cpp
 int t, n, m, input1, input2;
