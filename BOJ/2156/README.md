@@ -27,10 +27,7 @@ n-3번째 또는 그 이하의 수에서 잔을 마시지 않는다면 위의 3�
 	dp[2] = dp[1] + grape[2];
 	for ( i = 3; i <= n; i++)
 	{
-		dp[i] = max(dp[i - 1], max(
-								dp[i - 2] + grape[i], 
-								dp[i - 3] + grape[i - 1] + grape[i]
-						));
+		dp[i] = max(dp[i - 1], max(dp[i - 2] + grape[i], dp[i - 3] + grape[i - 1] + grape[i]));
 	}
 	cout << dp[n];
 ```
